@@ -13,13 +13,13 @@ while i<3:
 		os.system('cls')
 		b=b+1
 		break
-	elif i<2: 									#incorrect answer
+	elif i<2: 							#incorrect answer
 		print('\nПодумай еще!\n\nнажми кнопку')
 		msvcrt.getch()
 		os.system('cls')
 		i=i+1
 		continue
-	else: 										#question about surrendering
+	else: 								#question about surrendering
 		a=input('\nНе угадал :)) \nСдаешся? ')
 		if a in ['yes','y','да','д','угу']: 
 			print('эхх ты... Овца!\n\nнажми кнопку')  
