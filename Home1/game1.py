@@ -49,7 +49,9 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -73,7 +75,9 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -97,20 +101,22 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
 i=0
 while i<3:
 	a=input('Маленький, желтенький в небе кувыркается.\n')
-	if  a in ["Вьетнамец",'вьетнамец','Вьетнамец мину','вьетнамец мину']:
+	if  a in ["Вьетнамец",'вьетнамец','Вьетнамец мина','вьетнамец мина']:
 		a=input("\nПочти а дальше?\n")
 		pass
-	if  a in ["Вьетнамец мину нашел",'Вьетнамец ищет нашёл',"вьетнамец мину нашёл",'вьетнамец нашел мину',"нашел мину","Нашел мину","мину нашел","Мину нашел","нашёл мину","Нашёл мину","мину нашёл","Мину нашёл"]:
+	if  a in ["Вьетнамец мину ищет",'Вьетнамец ищет мину',"вьетнамец мину ищет",'вьетнамец ищет мину',"ищет мину","Ищет мину","мину ищет","Мину ищет"]:
 		a=input("\nХааа! )) Не все так просто! Но близко\n")
 		pass
-	if  a in ['мину нашел',"нашел мину",'Вьетнамец нашел мину']:
+	if  a in ["Вьетнамец мину нашел",'Вьетнамец ищет нашёл',"вьетнамец мину нашёл",'вьетнамец нашел мину',"нашел мину","Нашел мину","мину нашел","Мину нашел","нашёл мину","Нашёл мину","мину нашёл","Мину нашёл"]:
 		print("Да! Вьетнамец мину нашел!\n\n\nнажми кнопку")
 		msvcrt.getch()
 		break
@@ -127,7 +133,9 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -135,7 +143,7 @@ i=0
 while i<3:
 	a=input('В небе одна, в земле нету, а у бабы их целых две.\n')
 	if  a in ["сиськи",'сиси','груди','грудь',"соски","титьки","тити","титя","сися"]:
-		a=input("\nПравильно! Но ответ другой... к сожалению\n")
+		a=input("\nХотелось бы, но нет. Ответ другой\n")
 		pass
 	if  a in ["б",'Б',"Буква Б",'Буква',"буква"]:
 		print("ДА! Это буква Б!\n\n\nнажми кнопку")
@@ -150,13 +158,15 @@ while i<3:
 	else:
 		a=input('\nНе угадал :)) \nСдаешся? ')
 		if a in ['yes','y','да','д','угу']: 
-			print('Вьетнамец мину нашел') 
+			print('Гранаты!!!') 
 			msvcrt.getch()
 			print("\nШутка.\n Ответ - Буква Б")
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -181,11 +191,11 @@ while i<3:
 		if a in ['yes','y','да','д','угу']: 
 			print('По земле') 
 			msvcrt.getch()
-			print("\nШутка.\n Ответ - Буква Б")
-			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -209,7 +219,9 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -233,7 +245,9 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -257,7 +271,9 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -281,7 +297,9 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
 
 os.system('cls')
 print('СЛЕДУЮЩАЯ ЗАГАДКА\n')
@@ -308,4 +326,6 @@ while i<3:
 			msvcrt.getch()
 			os.system('cls')
 			break
-		else: i=0
+		else: 
+			os.system('cls')
+			i=0
