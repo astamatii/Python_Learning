@@ -1,6 +1,6 @@
 # Game with Riddles
 import os	#import miscellaneous operating system interfaces for clear screen
-import msvcrt #import Microsoft Visual C/C++ Runtime Library for getch command
+import msvcrt 	#import Microsoft Visual C/C++ Runtime Library for getch command
 os.system('cls')
 print('УГАДАЙ ЗАГАДКУ\n')
 b=0 				#variable for counting correct answers
